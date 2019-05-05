@@ -3,6 +3,7 @@ package com.chen.config;
 
 import com.chen.service.HelloService;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -11,6 +12,7 @@ import org.springframework.context.annotation.Configuration;
  * 在配置文件中用<bean><bean/>标签添加组件
  *
  */
+
 @Configuration
 public class MyAppConfig {
 
