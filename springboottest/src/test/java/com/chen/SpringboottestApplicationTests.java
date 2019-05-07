@@ -1,6 +1,6 @@
 package com.chen;
 
-import com.chen.CompontScanTest.TestAppConfig;
+
 import com.chen.bean.Dog;
 
 import com.chen.config.MyAppConfig;
