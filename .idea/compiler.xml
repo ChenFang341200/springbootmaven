@@ -10,6 +10,7 @@
         <module name="asynchron" />
         <module name="config-jdbc" />
         <module name="jdbc-demo" />
+        <module name="springboot-cache" />
         <module name="springboot-config-test" />
         <module name="springboot-log" />
         <module name="springboot-web" />
@@ -28,6 +29,7 @@
       <module name="config-git" options="-parameters" />
       <module name="config-jdbc" options="-parameters" />
       <module name="jdbc-demo" options="-parameters" />
+      <module name="springboot-cache" options="-parameters" />
       <module name="springboot-config-test" options="-parameters" />
       <module name="springboot-log" options="-parameters" />
       <module name="springboot-web" options="-parameters" />

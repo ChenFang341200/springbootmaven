@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/asynchron/pom.xml" />
         <option value="$PROJECT_DIR$/jdbc-demo/pom.xml" />
         <option value="$PROJECT_DIR$/config-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-cache/pom.xml" />
       </list>
     </option>
   </component>
