@@ -2,11 +2,11 @@ package com.chen.service;
 
 import com.chen.bean.Employee;
 import com.chen.mapper.EmployeeMapper;
-import org.apache.ibatis.annotations.Select;
-import org.omg.CORBA.portable.ValueOutputStream;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cache.annotation.*;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.stereotype.Service;
 
 /**
@@ -39,8 +39,9 @@ public class EmployeeService {
      */
 
     //@Cacheable(value = "Emp",keyGenerator = "MykeyGenerator",condition = "#id>0")
-    @Cacheable(value = "Emp")
+    //@Cacheable(value = "Emp")
     public Employee getEmp(Integer id){
+
         System.out.println("查询"+id+"员工号");
         Employee emp = employeeMapper.getEmpById(id);
         return emp;

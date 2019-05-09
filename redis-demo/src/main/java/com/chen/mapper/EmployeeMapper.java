@@ -2,7 +2,6 @@ package com.chen.mapper;
 
 import com.chen.bean.Employee;
 import org.apache.ibatis.annotations.*;
-import org.apache.ibatis.type.JdbcType;
 
 /**
  * <huazhu>

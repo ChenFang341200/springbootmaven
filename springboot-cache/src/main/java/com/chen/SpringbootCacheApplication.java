@@ -7,7 +7,10 @@ import org.springframework.cache.annotation.EnableCaching;
 
 /*
         1、开启基于注解的缓存 @EnableCaching
-        2、
+        2、标注缓存注解
+           @Cacheable
+           @CacheEvict
+           @CachePut
  */
 
 @EnableCaching
