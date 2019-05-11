@@ -39,6 +39,7 @@ public class RedisDemoApplicationTests {
         Employee employee = employeeMapper.getEmpById(1);
         String dataJson = FastJsonUtils.toJSONString(employee);
         stringRedisTemplate.opsForValue().set("employee",dataJson);
+
     }
 
 }

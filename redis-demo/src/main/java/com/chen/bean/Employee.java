@@ -1,11 +1,22 @@
 package com.chen.bean;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 public class Employee {
-	
+
+	@JSONField(name = "id")
 	private Integer id;
+
+	@JSONField(name = "lastName")
 	private String lastName;
+
+	@JSONField(name = "email")
 	private String email;
+
+	@JSONField(name = "gender")
 	private Integer gender; //性别 1男  0女
+
+	@JSONField(name = "dId")
 	private Integer dId;
 	
 	
