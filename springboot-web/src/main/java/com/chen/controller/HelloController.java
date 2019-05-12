@@ -18,6 +18,7 @@ public class HelloController {
     @RequestMapping("/success")
     public String Success(Map<String,Object> map){
         map.put("hello","你好");
+       // int i =10/0;  已经捕获全局异常
         return "success";
     }
 
