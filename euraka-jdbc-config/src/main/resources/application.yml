@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/chen1000000/ConfigServe.git # 远程git仓库的地址
+          username: chen1000000  # 以及相应的账户名
+          password: cc341200  # 和密码
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8974
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS

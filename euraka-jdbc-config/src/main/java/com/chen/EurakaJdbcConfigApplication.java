@@ -6,15 +6,14 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-//开启configServer服务
 @EnableConfigServer
-//@EnableEurekaClient
-@EnableDiscoveryClient   //注解使项目具备 Eureka Client 功能
+@EnableEurekaClient
+@EnableDiscoveryClient
 @SpringBootApplication
-public class ConfigJdbcApplication<EnableEurekaClient> {
+public class EurakaJdbcConfigApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigJdbcApplication.class, args);
+        SpringApplication.run(EurakaJdbcConfigApplication.class, args);
     }
 
 }
