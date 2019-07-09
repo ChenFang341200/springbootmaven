@@ -40,6 +40,8 @@ public class RedisDemoApplicationTests {
         String dataJson = FastJsonUtils.toJSONString(employee);
         stringRedisTemplate.opsForValue().set("employee",dataJson);
 
+        System.out.println("ssss");
+
     }
 
 }
