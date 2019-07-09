@@ -8,10 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aop-log" />
         <module name="asynchron" />
-        <module name="config-jdbc" />
+        <module name="comsurmer-user" />
+        <module name="euraka-jdbc-config" />
+        <module name="euraka-provader" />
+        <module name="eureka-server" />
         <module name="jdbc-demo" />
         <module name="rabbit-amqp" />
         <module name="redis-demo" />
+        <module name="security" />
         <module name="springboot-cache" />
         <module name="springboot-config-test" />
         <module name="springboot-email" />
@@ -23,17 +27,23 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-git" target="1.8" />
+      <module name="config-jdbc" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aop-log" options="-parameters" />
       <module name="asynchron" options="-parameters" />
+      <module name="comsurmer-user" options="-parameters" />
       <module name="config-git" options="-parameters" />
       <module name="config-jdbc" options="-parameters" />
+      <module name="euraka-jdbc-config" options="-parameters" />
+      <module name="euraka-provader" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="jdbc-demo" options="-parameters" />
       <module name="rabbit-amqp" options="-parameters" />
       <module name="redis-demo" options="-parameters" />
+      <module name="security" options="-parameters" />
       <module name="springboot-cache" options="-parameters" />
       <module name="springboot-config-test" options="-parameters" />
       <module name="springboot-email" options="-parameters" />
